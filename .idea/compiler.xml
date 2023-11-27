@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="BankingSystem" />
+        <module name="test_app" />
+        <module name="bookstore_test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BankingSystem" target="19" />
+      <module name="bookstore_test" target="1.7" />
+      <module name="test_app" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="test_app" options="-endorseddirs D:\GitHub\LondonMet\courseworks\WebApplication\test_app\target/endorsed" />
+    </option>
+  </component>
+</project>
